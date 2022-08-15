@@ -1,3 +1,32 @@
 [module]
   [module.hugoVersion]
     min = "0.41.0"
+
+[params]
+
+[params.theme]
+palette = "gruvbox-dark"
+mode = "dark-mode"
+
+[[params.socialLinks]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/romsom"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
